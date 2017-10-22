@@ -1,0 +1,7 @@
+; sp1dll.def : Declares the module parameters for the DLL.
+
+LIBRARY      "sp1dll"
+
+EXPORTS
+    ; Explicit exports can go here
+    ; ShowSPdlg

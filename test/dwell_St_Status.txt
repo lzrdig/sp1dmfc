@@ -1,0 +1,45 @@
+Number of iterations to converge = 0
+Final correction to bands =  5.529e-14 eV
+Maximum error in poisson equation=  1.427e-10
+Don't worry, be happy! The convergence is good!
+
+Structure Sheet Resistance =  6.109e+29 Ohms/square
+
+Layer sheet concentrations
+
+surface            schottky
+-----------------------------------------------------------------------------------------
+400.0 Ang	GaAs	ns=  2.950e-16 cm-2,	ps=  3.900e-16 cm-2
+-----------------------------------------------------------------------------------------
+100.0 Ang	GaAs	ns=  0.000e+00 cm-2,	ps=  1.045e-16 cm-2
+-----------------------------------------------------------------------------------------
+ 50.0 Ang	InGaAs_GaAs	ns=  0.000e+00 cm-2,	ps=  5.045e-17 cm-2
+-----------------------------------------------------------------------------------------
+ 40.0 Ang	GaAs	ns=  0.000e+00 cm-2,	ps=  3.955e-17 cm-2
+-----------------------------------------------------------------------------------------
+150.0 Ang	InGaAs_GaAs	ns=  0.000e+00 cm-2,	ps=  1.500e-16 cm-2
+-----------------------------------------------------------------------------------------
+100.0 Ang	GaAs	ns=  0.000e+00 cm-2,	ps=  1.000e-16 cm-2
+-----------------------------------------------------------------------------------------
+900.0 Ang	GaAs	ns=  8.250e-16 cm-2,	ps=  8.955e-16 cm-2
+-----------------------------------------------------------------------------------------
+substrate            slope=0
+
+Temperature =  10.0 K
+
+Schrodinger solution from  3.000e+02 Ang to  9.000e+02 Ang.
+
+The following subband energies were found (E-Ef):
+
+Heavy hole eigenvalue 1 = -3.592277e-02 eV
+Heavy hole eigenvalue 2 = -5.459079e-02 eV
+Heavy hole eigenvalue 3 = -8.570325e-02 eV
+Heavy hole eigenvalue 4 = -1.292587e-01 eV
+Heavy hole eigenvalue 5 = -1.852553e-01 eV
+Heavy hole eigenvalue 6 = -2.536904e-01 eV
+Heavy hole eigenvalue 7 = -3.345608e-01 eV
+Heavy hole eigenvalue 8 = -4.278625e-01 eV
+Heavy hole eigenvalue 9 = -5.335901e-01 eV
+Heavy hole eigenvalue 10 = -6.517340e-01 eV
+Heavy hole eigenvalue 11 = -6.695884e-01 eV
+Light hole eigenvalue 1 = -2.138062e-01 eV

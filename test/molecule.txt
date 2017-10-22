@@ -1,0 +1,18 @@
+#100A GaAs Dot Molecule
+
+surface schottky v1
+GaAs	t=198	dy=5
+AlGaAs  t=565	x=0.3	dy=6
+GaAs	t=100	dy=2
+AlGaAs	t=565	x=0.3	dy=6
+GaAs	t=5000	dy=20
+substrate 
+
+fullyionized
+find quantized states
+schrodingerstart=20
+schrodingerstop=2000
+v1 0.0
+convergence=7e-13
+temp=10K
+#dy=2

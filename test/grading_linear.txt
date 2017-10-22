@@ -1,0 +1,1 @@
+# test commentsurface	schottky=.6	v1GaAs		t=200AlGaAs	t=500	x=0-0.28	GaAs	t=400	AlGaAs	t=500	x=.28-0GaAs	t=200substratefullyionizedv1 0.0no holes#schrodingerstart=0#schrodingerstop=7000temp=4.2Kdy=10

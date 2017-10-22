@@ -1,0 +1,25 @@
+#symmetrical 200 In0.15GaAs QW on GaAs
+
+surface schottky v1
+GaAs	t=70	dy=4
+AlGaAs	t=250	x=0.3	dy=4
+GaAs	t=75	dy=4
+GaAs	t=10	Nd=2e18	dy=4
+GaAs	t=75	dy=4
+InGaAs_GaAs	t=30	x=0.3	dy=4
+GaAs	t=75	dy=4
+GaAs	t=10	Nd=2e18 dy=2
+GaAs	t=75	dy=4
+AlGaAs	t=250	x=0.3	dy=4
+GaAs	t=3000	dy=10
+substrate
+
+fullyionized
+v1 2.0
+schrodingerstart=70
+schrodingerstop=2000
+find quantized states
+maxiterations=1000
+convergence=1e-13
+temp=10 K
+#dy=2

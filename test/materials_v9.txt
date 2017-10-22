@@ -1,0 +1,291 @@
+beta6
+#  This is the materials file. If you edit this file, be sure you know what you are doing!
+
+GaAs   binary   GaAs    Gallium Arsenide
+0.000E+00  0.000E+00  0.000E+00  0.000E+00
+eg=1.519-5.405e-4*Temp^2/(204+Temp)
+dec=0.0
+er=13.1
+ed=6.0e-3
+ea=30.0e-3
+edd=0.6
+eda=0.7
+me=0.67
+val=1.0
+mh=0.48
+mlh=0.082
+emo=8.5e3
+hmo=4.0e2
+tn=1.0e-10
+tp=1.0e-10
+pol=0.0
+al=0.0
+end GaAs
+
+
+AlGaAs   ternary   GaAs   Aluminum Galium Arsenide
+0.000E+00  0.000E+00  0.000E+00  0.000E+00  
+eg=1.424+1.247*x x=0-0.45 eg=1.90+0.125*x+0.143*x^2 x=0.45-1.0 
+dec=7.73e-1*x x=0-0.45 dec=0.476-0.349*x+0.143*x^2 x=0.45-1.0
+er=13.1-3.0*x x=0-1
+ed=3.0e-2 x=0-1
+ea=4.0e-2 x=0-1
+edd=6.0e-1 x=0-1
+eda=6.0e-1 x=0-1
+me=0.067+8.3e-2*x x=0-0.45 me=8.5e-1+0.125*x-7.0e-2*x^2 x=0.45-1.0 
+val=1.0 x=0-0.45 val=6.0 x=0.45-1.0
+mh=0.48+3.1e-2*x x=0-1
+mlh=8.2e-2+5.3e-3*x x=0-1
+emo=4.0e3 x=0-1
+hmo=4.0e2 x=0-1
+tn=1.0e-10 x=0-1
+tp=1.0e-10 x=0-1
+pol=0.0 x=0-1
+al=0.0 x=0-1
+end AlGaAs
+
+
+InGaAs_GaAs   ternary   GaAs   "Indium Gallium Arsenide strained on GaAs"
+0.000E+00  0.000E+00  0.000E+00  0.000E+00
+eg=1.519-1.579*x+0.0477*x^2 x=0-1
+dec=-0.989*x+0.097*x^2  x=0-1
+er=13.1+1.42*x  x=0-1
+ed=0.00580+1.494*x  x=0-1
+ea=0.03+0.02*x  x=0-1
+edd=0.6-0.5*x  x=0-1
+eda=0.7-0.6*x  x=0-1
+me=0.067-0.0501*x-0.0091*x^2  x=0-1
+val=1.0  x=0-1
+mh=2.86-0.285*x-0.145*x^2 x=0-1
+mlh=11.1+25.88*x+0.0202*x^2  x=0-1
+emo=8500+1500*x  x=0-1                  
+hmo=400+100*x  x=0-1
+tn=1e-12+9.9E-11*x  x=0-1
+tp=1e-12+9.9E-11*x  x=0-1
+pol=0.0  x=0-1
+al=0.0  x=0-1 
+end InGaAs_GaAs
+
+#InGaAs_GaAs   ternary   GaAs   "Indium Gallium Arsenide strained on GaAs"
+#0.000E+00  0.000E+00  0.000E+00  0.000E+00
+#eg=1.454-1.102*x+0.02*x^2 x=0-1
+#dec=-0.661*x+0.012*x^2  x=0-1
+#er=13.1+1.42*x  x=0-1
+#ed=0.00580+0.00430*x+0.004*x^2  x=0-1
+#ea=0.01  x=0-1
+#edd=0.2  x=0-1
+#eda=0.2  x=0-1
+#me=0.067-0.044*x  x=0-1
+#val=1.0  x=0-1
+#mh=0.48-0.08*x x=0-1
+#mlh=0.08  x=0-1
+#emo=4000  x=0-1                  
+#hmo=400  x=0-1
+#tn=1e-10  x=0-1
+#tp=1e-10  x=0-1
+#pol=0.0  x=0-1
+#al=0.0  x=0-1 
+#end InGaAs_GaAs
+
+                                              
+SiGaAs   binary   GaAs   Semi-Insulating GaAs, Cr and O doped.
+0.000E+00  0.000E+00  1.000E+16  1.000E+16
+eg=1.519-5.405e-4*Temp^2/(204+Temp)
+dec=0.0
+er=13.1
+ed=6.0e-3
+ea=30.0e-3
+edd=0.6
+eda=0.7
+me=0.67
+val=1.0
+mh=0.48
+mlh=0.082
+emo=8.5e3
+hmo=4.0e2
+tn=1.0e-10
+tp=1.0e-10
+pol=0.0
+al=0.0
+end SiGaAs  
+
+                                                                          
+
+InP   binary   InP   Indium Phosphide
+0.000E+00  0.000E+00  0.000E+00  0.000E+00
+eg=1.35
+dec=0.0
+er=12.4
+ed=6.0e-3
+ea=2.000E-02
+edd=0.65
+eda=0.65
+me=7.700E-02
+val=1.0
+mh=6.400E-01
+mlh=8.200E-02
+emo=4.6e3
+hmo=1.5e2
+tn=1.0e-8
+tp=1.0e-8
+pol=0.0
+al=0.0
+end InP           
+
+                                                                 
+
+SiInP   binary   InP   Semi-insulating Indium Phosphide
+0.000E+00  0.000E+00  1.000E+16  1.000E+16
+eg=1.35
+dec=0.0
+er=12.4
+ed=6.0e-3
+ea=2.000E-02
+edd=0.65
+eda=0.65
+me=7.700E-02
+val=1.0
+mh=6.400E-01
+mlh=8.200E-02
+emo=4.6e3
+hmo=1.5e2
+tn=1.0e-8
+tp=1.0e-8
+pol=0.0
+al=0.0
+end SiInP                                                                            
+
+
+
+Si   elemental   Si   Silicon 
+0.000E+00  0.000E+00  0.000E+00  0.000E+00
+eg=1.12
+dec=0.0
+er=11.9
+ed=0.300E-02
+ea=0.100E-01
+edd=0.5
+eda=0.5
+me=3.283E-01
+val=6.0
+mh=0.490E+00
+mlh=0.160E+00
+emo=1.5e3
+hmo=4.5e2
+tn=2.5e-5
+tp=2.5e-5
+pol=0.0
+al=0.0
+end Si   
+
+                                                                        
+
+SiO2   binary   Si   Silicon dioxide
+0.000E+00  0.000E+00  0.000E+00  0.000E+00
+eg=9.0
+dec=2.9
+er=3.9
+ed=0.300E-02
+ea=0.100E-01
+edd=0.5
+eda=0.5
+me=0.39
+val=6.0
+mh=0.33
+mlh=0.33
+emo=500
+hmo=500
+tn=2.5e-5
+tp=2.5e-5
+pol=0.0
+al=0.0
+end SiO2
+
+
+InSb	binary   InSb   Indium Antimonide
+0.000E+00  0.000E+00  0.000E+00  0.000E+00
+eg=0.1725
+dec=2.9
+er=18
+ed=0.300E-02
+ea=0.100E-01
+edd=0.5
+eda=0.5
+me=0.0136
+val=6.0
+mh=0.015
+mlh=0.43
+emo=500
+hmo=500
+tn=2.5e-5
+tp=2.5e-5
+pol=0.0
+al=0.0
+end InSb
+                                                                                                                          
+#GaN material parameters----------------------------------> Start
+# 0.000E+00 8.900E+00 2.000E-01 +0.000E+00 +0.000E+00 +0.000E+00 +1.000E+03 +2.000E+02 +1.000E-09 +1.000E-09 +3.400E-06 +4.000E+05
+GaN   binary   GaN     Gallium Nitride - Wurtzite
++1.000E+17  +0.000E+00 +0.000E+00 +0.000E+0
+eg=3.510E+00
+dec=+1.100E+00
+er=+1.100E+00
+ed=+2.900E-02
+ea=+2.300E-01
+edd=+1.000E-02
+eda=-5.000E+00
+me=0.0136
+val=6.0
+mh=0.015
+mlh=0.43
+emo=500
+hmo=500
+tn=2.5e-5
+tp=2.5e-5
+pol=0.0
+al=0.0
+end GaN
+
+#AlGaN   ternary   GaN   Aluminum Gallium Nitride on GaN                                                             
+#+1.000E+17   +0.000E+00 +0.000E+00 +0.000E+0
+#eg=1.454-1.102*x+0.02*x^2                                                                                                 
+#eg=1	+3.510*x	+2.040*x^2	+7.000E-01*x^3
+#dec	0	1	+0.000E+00	+1.890E+00	+0.000E+00
+# er	0	1	+8.900E+00	-4.000E-01	+0.000E+00
+# ed	0	1	+2.900E-02	+1.410E-01	+0.000E+00
+# ea	0	1	+2.300E-01	+2.700E-01	+0.000E+00
+#edd	0	1	+1.000E-02	-5.010E+00	+0.000E+00
+#eda	0	1	-5.000E+00	+0.000E+00	+0.000E+00
+# me	0	1	+2.000E-01	+2.000E-01	+0.000E+00
+#val	0	1	+1.000E+00	+0.000E+00	+0.000E+00
+# mh	0	1	+1.100E+00	+2.430E+00	+0.000E+00
+#mlh	0	1	+1.100E+00	+2.430E+00	+0.000E+00
+#emo	0	1	+1.000E+03	-7.000E+02	+0.000E+00
+#hmo	0	1	+2.000E+02	-1.860E+02	+0.000E+00
+# tn	0	1	+1.000E-09	+0.000E+00	+0.000E+00
+# tp	0	1	+1.000E-09	+0.000E+00	+0.000E+00
+#pol	0	1	+3.400E-06	+3.500E-06	+2.100E-06
+# al	0	1	+4.000E+05	-4.000E+05	+0.000E+00                                                                                    
+#end AlGaN 
+
+                                                                                                                                   
+#InGaN   ternary   GaN 	Indium Gallium Nitride on GaN                                                                             
+#+1.000E+17  0.000E-01  0.000E-01  0.000E-01                                                                                                 
+# eg	0	1	+3.510E+00	-4.120E+00	+1.400E+00
+#dec	0	1	+0.000E+00	-2.220E+00	+0.000E+00
+# er	0	1	+8.900E+00	+6.400E+00	+0.000E+00
+# ed	0	1	+2.900E-02	-1.400E-02	+0.000E+00
+# ea	0	1	+2.300E-01	+0.000E+00	+0.000E+00
+#edd	0	1	+1.000E-02	-5.010E+00	+0.000E+00
+#eda	0	1	-5.000E+00	+0.000E+00	+0.000E+00
+# me	0	1	+2.000E-01	-9.000E-02	+0.000E+00
+#val	0	1	+1.000E+00	+0.000E+00	+0.000E+00
+# mh	0	1	+1.100E+00	+5.300E-01	+0.000E+00
+#mlh	0	1	+1.100E+00	-8.300E-01	+0.000E+00
+#emo	0	1	+1.000E+03	+2.200E+03	+0.000E+00
+#hmo	0	1	+2.000E+02	-1.900E+02	+0.000E+00
+# tn	0	1	+1.000E-09	+0.000E+00	+0.000E+00
+# tp	0	1	+1.000E-09	+0.000E+00	+0.000E+00
+#pol	0	1	+3.400E-06	-2.900E-06	+3.700E-06
+# al	0	1	+4.000E+05	-4.000E+05	+0.000E+00                   
+#end InGaN

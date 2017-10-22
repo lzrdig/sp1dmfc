@@ -1,0 +1,22 @@
+# test comment
+# Quantum dots on a Quantum well
+# Wetting layer part
+
+surface	schottky=.75	v1
+GaAs	t=400
+GaAs	t=100	dy=1
+InGaAs_GaAs	t=50	x=1	dy=0.1
+GaAs	t=40	dy=1
+InGaAs_GaAs	t=150	x=0	dy=1
+GaAs	t=100	dy=1
+GaAs	t=900
+substrate
+
+
+fullyionized
+v1 -.1
+schrodingerstart=300
+schrodingerstop=900
+find quantized states
+temp=10K
+#dy=10

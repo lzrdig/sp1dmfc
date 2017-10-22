@@ -1,0 +1,13 @@
+# test comment
+surface	schottky=.6	v1
+GaAs	t=1050 Nd=1e16 no holes
+GaAs	t=1050 Nd=1e18 no holes
+SIGaAs	t=100
+SIGaAs	t=5000 dy=100
+substrate
+
+fullyionized
+v1 0.5 -20.0 -1.0
+CVonly
+temp=300K
+dy=10

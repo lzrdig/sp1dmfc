@@ -1,0 +1,17 @@
+#symmetrical 120 In0.13GaAs QW on GaAs
+
+surface schottky v1
+GaAs t=500 dy=10
+InGaAs_GaAs t=120 x=0.13 dy=4
+GaAs t=500 dy=10
+substrate
+
+# specify simulation parameters
+fullyionized
+v1 0.0
+schrodingerstart=100
+schrodingerstop=1000
+maxiterations=1000
+convergence=1e-13
+temp=10 K
+#dy=2

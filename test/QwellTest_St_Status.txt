@@ -1,0 +1,50 @@
+Number of iterations to converge = 0
+Final correction to bands = 3.313e-006 eV
+Maximum error in poisson equation= 1.444e-006
+Don't worry, be happy! The convergence is good!
+
+Structure Sheet Resistance = 1.340e+014 Ohms/square
+
+Layer sheet concentrations
+
+surface            schottky
+-----------------------------------------------------------------------------------------
+100.0 Ang	AlGaAs	ns= 8.733e+000 cm-2,	ps= 1.029e-008 cm-2
+-----------------------------------------------------------------------------------------
+150.0 Ang	GaAs	ns= 0.000e+000 cm-2,	ps= 1.500e-016 cm-2
+-----------------------------------------------------------------------------------------
+100.0 Ang	AlGaAs	ns= 2.911e+000 cm-2,	ps= 3.431e-009 cm-2
+-----------------------------------------------------------------------------------------
+substrate            slope=0
+
+Temperature = 300.0 K
+
+Schrodinger solution from 2.000e+001 Ang to 3.300e+002 Ang.
+
+The following subband energies were found (E-Ef):
+
+Electron eigenvalue 1 = 3.709213e-001 eV
+Electron eigenvalue 2 = 3.792089e-001 eV
+Electron eigenvalue 3 = 3.924611e-001 eV
+Electron eigenvalue 4 = 4.099148e-001 eV
+Electron eigenvalue 5 = 4.306207e-001 eV
+Electron eigenvalue 6 = 4.535125e-001 eV
+Electron eigenvalue 7 = 4.774710e-001 eV
+Electron eigenvalue 8 = 5.013848e-001 eV
+Electron eigenvalue 9 = 5.242030e-001 eV
+Electron eigenvalue 10 = 5.449755e-001 eV
+Electron eigenvalue 11 = 5.628754e-001 eV
+Electron eigenvalue 12 = 5.772205e-001 eV
+Electron eigenvalue 13 = 5.875234e-001 eV
+Electron eigenvalue 14 = 5.935913e-001 eV
+Heavy hole eigenvalue 1 = -1.057164e+000 eV
+Heavy hole eigenvalue 2 = -1.065406e+000 eV
+Heavy hole eigenvalue 3 = -1.078794e+000 eV
+Heavy hole eigenvalue 4 = -1.096828e+000 eV
+Heavy hole eigenvalue 5 = -1.118832e+000 eV
+Heavy hole eigenvalue 6 = -1.143959e+000 eV
+Heavy hole eigenvalue 7 = -1.171102e+000 eV
+Heavy hole eigenvalue 8 = -1.197222e+000 eV
+Light hole eigenvalue 1 = -1.067155e+000 eV
+Light hole eigenvalue 2 = -1.104260e+000 eV
+Light hole eigenvalue 3 = -1.160470e+000 eV

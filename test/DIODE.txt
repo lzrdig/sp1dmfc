@@ -1,0 +1,11 @@
+# test comment
+surface	ohmic	v1
+Si	t=350nm	Na=1e18 Nda=5e17 Eda=.3
+Si	t=3500	Nd=1e18 Ndd=5e17 Edd=.3
+substrate ohmic v2
+
+fullyionized
+v1 0.0
+v2 -0.0
+temp=300K
+dy=50

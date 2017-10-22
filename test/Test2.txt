@@ -1,0 +1,14 @@
+surface schottky 	v1
+AlGaAs                       t=200                        x=0.30                                                    dy=5
+InGaAs_GaAs                  t=80                        x=0.30                                                    dy=5
+AlGaAs                       t=10                         x=0.30                                                    dy=2
+GaAs                         t=100                                                                                  dy=5
+AlGaAs                       t=200                        x=0.30                                                    dy=5
+substrate
+
+v1 0.0
+fullyionized
+temp=300K
+schrodingerstart=50
+schrodingerstop=580
+find quantized states

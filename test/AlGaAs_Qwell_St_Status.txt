@@ -1,0 +1,31 @@
+Number of iterations to converge = 0
+Final correction to bands =  5.294e-06 eV
+Maximum error in poisson equation=  3.630e-04
+Don't worry, be happy! The convergence is good!
+
+Structure Sheet Resistance =  2.370e+02 Ohms/square
+
+Layer sheet concentrations
+
+surface            schottky
+-----------------------------------------------------------------------------------------
+150.0 Ang	GaAs	ns=  1.250e-16 cm-2,	ps=  1.400e-16 cm-2
+-----------------------------------------------------------------------------------------
+200.0 Ang	AlGaAs	ns=  1.650e-16 cm-2,	ps=  2.000e-16 cm-2
+-----------------------------------------------------------------------------------------
+ 50.0 Ang	AlGaAs	ns=  5.250e-17 cm-2,	ps=  5.250e-17 cm-2
+-----------------------------------------------------------------------------------------
+150.0 Ang	GaAs	ns=  1.786e+12 cm-2,	ps=  1.515e-16 cm-2
+-----------------------------------------------------------------------------------------
+500.0 Ang	AlGaAs	ns=  2.699e+11 cm-2,	ps=  4.985e-16 cm-2
+-----------------------------------------------------------------------------------------
+2500.0 Ang	AlGaAs	ns=  2.519e+12 cm-2,	ps=  2.478e-15 cm-2
+-----------------------------------------------------------------------------------------
+substrate            slope=0
+
+Temperature =  10.0 K
+
+Schrodinger solution from  5.000e+01 Ang to  1.950e+03 Ang.
+
+The following subband energies were found (E-Ef):
+
