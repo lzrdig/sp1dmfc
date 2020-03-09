@@ -184,6 +184,9 @@ void CGrphDlg::PostNcDestroy()
 }
 
 
+
+// CSPgrph button handlers
+
 void CGrphDlg::OnCancel()
 {
 	// Default OnCancel is overwritten in order to make the dialog modeless
@@ -301,6 +304,38 @@ void CGrphDlg::OnBnClickedOvrlay()
 {
 	PlotAllOverlayed();
 }
+
+void CGrphDlg::OnBnClickedZoom()
+{
+	// TODO: Add your control notification handler code here
+	if (((CButton*)GetDlgItem(IDC_ZOOM))->GetCheck() == 1)
+		m_ChartCtrl.SetZoomEnabled(true);
+	else
+		m_ChartCtrl.SetZoomEnabled(false);
+}
+
+void CGrphDlg::OnBnClickedPan()
+{
+	// TODO: Add your control notification handler code here
+	if (((CButton*)GetDlgItem(IDC_PAN))->GetCheck() == 1)
+		m_ChartCtrl.SetPanEnabled(true);
+	else
+		m_ChartCtrl.SetPanEnabled(false);
+}
+
+void CGrphDlg::OnBnClickedAutoscale()
+{
+	CChartAxis* pBottomAxis = NULL;
+
+	pBottomAxis = m_ChartCtrl.GetAxis(CChartCtrl::BottomAxis);
+	if (((CButton*)GetDlgItem(IDC_AUTOSCALE))->GetCheck() == 1)
+		pBottomAxis->SetAutomatic(true);
+	else
+		pBottomAxis->SetAutomatic(false);
+}
+
+
+
 
 // Function to plot potential profile
 int CGrphDlg::PlotPotentials(bool clrGraph)
@@ -691,31 +726,4 @@ int CGrphDlg::PlotAllOverlayed(void)
 
 
 
-void CGrphDlg::OnBnClickedZoom()
-{
-	// TODO: Add your control notification handler code here
-	if ( ((CButton*)GetDlgItem(IDC_ZOOM))->GetCheck() == 1)
-		m_ChartCtrl.SetZoomEnabled(true);
-	else
-		m_ChartCtrl.SetZoomEnabled(false);	
-}
 
-void CGrphDlg::OnBnClickedPan()
-{
-	// TODO: Add your control notification handler code here
-	if ( ((CButton*)GetDlgItem(IDC_PAN))->GetCheck() == 1)
-		m_ChartCtrl.SetPanEnabled(true);
-	else
-		m_ChartCtrl.SetPanEnabled(false);	
-}
-
-void CGrphDlg::OnBnClickedAutoscale()
-{
-	CChartAxis* pBottomAxis = NULL;
-	
-	pBottomAxis = m_ChartCtrl.GetAxis(CChartCtrl::BottomAxis);
-	if ( ((CButton*)GetDlgItem(IDC_AUTOSCALE))->GetCheck() == 1)
-		pBottomAxis->SetAutomatic(true);
-	else
-		pBottomAxis->SetAutomatic(false);
-}
