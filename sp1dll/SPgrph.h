@@ -46,6 +46,19 @@ protected:
 public:
 	afx_msg void OnPlot();
 	afx_msg void OnCbnSelchangeEigens();
+	afx_msg void OnLbnSelchangeWavefuncs();
+	afx_msg void OnBnClickedClrgraph();
+	afx_msg void OnBnClickedEcond();
+	afx_msg void OnBnClickedEfermi();
+	afx_msg void OnBnClickedEval();
+	afx_msg void OnBnClickedChrgn();
+	afx_msg void OnBnClickedOvrlay();
+	afx_msg void OnBnClickedChrgp();
+	afx_msg void OnBnClickedChrgf();
+	afx_msg void OnBnClickedZoom();
+	afx_msg void OnBnClickedPan();
+	afx_msg void OnBnClickedAutoscale();
+
 	CBrowseCtrl m_grphFile;
 	CSPdlg * m_pSPdlg;
 	CChartCtrl m_ChartCtrl;
@@ -59,13 +72,7 @@ public:
 	CCheckListBox m_cEigenvals;
 	CCheckListBox m_ctrlWavefuncs;
 	CButton m_cOverlay1;
-	afx_msg void OnLbnSelchangeWavefuncs();
-	afx_msg void OnBnClickedClrgraph();
-	afx_msg void OnBnClickedEcond();
-	afx_msg void OnBnClickedEfermi();
-	afx_msg void OnBnClickedEval();
-	afx_msg void OnBnClickedChrgn();
-	afx_msg void OnBnClickedOvrlay();
+
 	// Function to plot potential profile
 	int PlotPotentials(bool clrGraph);
 	// Plots the eigenvalues
@@ -80,9 +87,4 @@ public:
 	int UncheckEigenwavesBox(void);
 	// Plots all checked plots
 	int PlotAllOverlayed(void);
-	afx_msg void OnBnClickedChrgp();
-	afx_msg void OnBnClickedChrgf();
-	afx_msg void OnBnClickedZoom();
-	afx_msg void OnBnClickedPan();
-	afx_msg void OnBnClickedAutoscale();
 };
