@@ -1,82 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="sp1dll.cpp" />
-    <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="cLapack\xerbla.cpp" />
-    <ClCompile Include="poisson\1dbd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\adjust.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\boundstates.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BrowseCtrl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\charge.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\choosefile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ColourButton\colorBtn.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ColourPicker\ColourPicker.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ColourPicker\ColourPopup.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ErgDlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\fieldtrim.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cLapack\idamax.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cLapack\ieeeck.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cLapack\ilaenv.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="InfoDlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\initialize.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\io.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cLapack\lsame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\materials.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Matrls.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MtrlDlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MtrlTblDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="poisson\nrutil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="poisson\PCfuncs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\readlayers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ChartCtrl\ChartAxis.cpp">
@@ -190,61 +121,108 @@
     <ClCompile Include="cLapack\dstein.cpp">
       <Filter>Source Files\LAPACK</Filter>
     </ClCompile>
-    <ClCompile Include="SchrDlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poisson\schrod.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SchrPois.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SPdlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SPgrph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StructDlg.cpp">
+    <ClCompile Include="cLapack\ilaenv.cpp">
+      <Filter>Source Files\LAPACK</Filter>
+    </ClCompile>
+    <ClCompile Include="cLapack\idamax.cpp">
+      <Filter>Source Files\LAPACK</Filter>
+    </ClCompile>
+    <ClCompile Include="cLapack\ieeeck.cpp">
+      <Filter>Source Files\LAPACK</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowseCtrl.cpp">
+      <Filter>Source Files\Ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourButton\colorBtn.cpp">
+      <Filter>Source Files\Ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourPicker\ColourPicker.cpp">
+      <Filter>Source Files\Ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourPicker\ColourPopup.cpp">
+      <Filter>Source Files\Ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\fieldtrim.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\initialize.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\charge.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\boundstates.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\adjust.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\1dbd.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\io.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="cLapack\lsame.cpp">
+      <Filter>Source Files\LAPACK</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\schrod.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\readlayers.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\materials.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson\choosefile.cpp">
+      <Filter>Source Files\Poisson</Filter>
+    </ClCompile>
+    <ClCompile Include="sp1dll.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cLapack\xerbla.cpp">
+      <Filter>Source Files\LAPACK</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErgDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MtrlDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="MtrlTblDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="SchrDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="SPdlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="StructDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h" />
     <ClInclude Include="cLapack\blaswrap.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BrowseCtrl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ColourButton\colorBtn.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ColourPicker\ColourPicker.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ColourPicker\ColourPopup.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ErgDlg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="InfoDlg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Matrls.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MtrlDlg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MtrlTblDlg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="poisson\nrutil.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\PointsOrdering.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="poisson\poisp_defs.h">
@@ -257,9 +235,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SchrDlg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SchrPois.h">
@@ -358,22 +333,54 @@
     <ClInclude Include="sp1dll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SPdlg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="SPgrph.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StructDlg.h">
+    <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowseCtrl.h">
+      <Filter>Header Files\Ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourPicker\ColourPicker.h">
+      <Filter>Header Files\Ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourPicker\ColourPopup.h">
+      <Filter>Header Files\Ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourButton\colorBtn.h">
+      <Filter>Header Files\Ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\PointsOrdering.h">
+      <Filter>Header Files\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ErgDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="MtrlDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="MtrlTblDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="SchrDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="SPdlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="StructDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="sp1dll.rc" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="sp1dll.def" />
-    <None Include="res\sp1dll.rc2" />
+    <None Include="res\sp1dll.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -394,5 +401,28 @@
     <Filter Include="Source Files\LAPACK">
       <UniqueIdentifier>{16ec9d67-eec1-4561-bc9d-8cf368e042e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Ctrls">
+      <UniqueIdentifier>{a5a9cfa6-dbb0-4638-97ea-cd025c9cba9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Poisson">
+      <UniqueIdentifier>{7e1c2a29-6b39-427c-b608-7c711e0e5da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{01815fb5-640e-4580-b145-e4dab8043cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ctrls">
+      <UniqueIdentifier>{1cf4601f-0fe1-4c14-888d-8a0dd5a20bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs">
+      <UniqueIdentifier>{57df210a-3810-42e5-b716-ccad6f94c081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{7ae58518-73d6-4c6c-a0ff-203c434e5ac3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sp1dll.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
